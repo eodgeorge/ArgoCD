@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: liveness
-        image: registry.k8s.io/liveness
+        image: k8s.gcr.io/e2e-test-images/liveness:1.0
         args:
         - /server
         livenessProbe:
